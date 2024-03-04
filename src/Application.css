@@ -7,6 +7,7 @@
     width: 100%;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
+    padding: 1rem 1.5rem;
 }
 
 .nav-container{
@@ -40,9 +41,22 @@
 }
 
 .nav-link{
-    margin: 50px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #444;
+    padding: 1.2rem 1.5rem;
+    transition: 0.3s all linear;
+}
+
+.nav-link:hover{
+    background-color: #2781aa;
+    padding: 5px;
+    border-radius: 9px;
 }
 
 h1{
     margin-left: 10px;
+   
 }
